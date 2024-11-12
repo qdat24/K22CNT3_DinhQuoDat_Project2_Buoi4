@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc5552da1add4a348e4f16c30f542b00" Name="Diagram1">
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.CT_HOA_DON" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.DANH_GIA" Width="1.5" PointX="8.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.DIEN_THOAI" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.HOA_DON" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.KHACH_HANG" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.LOAI_DIEN_THOAI" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="K22CNT3_DinhQuocDat_2210900139_dbModel.QUAN_TRI" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__CT_HOA_DO__DienT__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__CT_HOA_DO__HoaDo__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__DANH_GIA__DienTh__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__DANH_GIA__KhachH__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__DIEN_THOA__MaLoa__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="K22CNT3_DinhQuocDat_2210900139_dbModel.FK__HOA_DON__KhachHa__114A936A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

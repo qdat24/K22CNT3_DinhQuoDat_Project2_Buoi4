@@ -1,0 +1,74 @@
+﻿@model K22CNT3_DinhQuocDat_Buoi4.Models.DIEN_THOAI
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DIEN_THOAI</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaDienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaDienThoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenDienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDienThoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HinhAnh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HinhAnh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonGia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LOAI_DIEN_THOAI.MaLoaiDienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOAI_DIEN_THOAI.MaLoaiDienThoai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

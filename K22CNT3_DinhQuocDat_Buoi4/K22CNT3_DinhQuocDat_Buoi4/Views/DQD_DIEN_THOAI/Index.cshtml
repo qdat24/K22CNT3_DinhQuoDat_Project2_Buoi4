@@ -1,0 +1,24 @@
+﻿@model IEnumerable<K22CNT3_DinhQuocDat_Buoi4.Models.DIEN_THOAI>
+
+@{
+    ViewBag.Title = "Danh sach dien thoai";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <div class="card w-100">
+                <img src="@item.HinhAnh" class="card-img-top" alt="@item.TenDienThoai">
+                <div class="card-body">
+                    <h5 class="card-title">@item.TenDienThoai</h5>
+                    <p>Gia: <span class="text-danger">@item.DonGia.Value.ToString("#,##0")</span></p>
+                    <a href="/DQDCart/AddToCart?id=@item.ID&TenDienThoai=@item.TenDienThoai&HinhAnh=@item.HinhAnh&SoLuongMua=1&DonGiaMua=@item.DonGia.Value.ToString(System.Globalization.CultureInfo.InvariantCulture)">
+                        Mua hàng
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
